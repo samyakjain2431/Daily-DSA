@@ -1,0 +1,13 @@
+{
+	"swapping basic array elements": {
+		"prefix": "swapArrayElem",
+		"body": [
+		  "void swapArrayElem(int &arr, int a, int b){",
+		  "    int temp = arr[a];",
+		  "    arr[a]= arr[b];",
+		  "    arr[b] = temp;",
+		  "}"
+		],
+		"description": "swapping basic array elements"
+	  }
+}
