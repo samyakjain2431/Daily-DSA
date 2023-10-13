@@ -1,4 +1,5 @@
-*.gitignore
+.gitignore
 .vscode
+*.exe
 file2.txt
 file3.txt
