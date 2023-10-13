@@ -45,6 +45,6 @@ int aggressiveCows(vector<int> &arr, int n){
 int main(){
     vector<int> arr= {4, 2,1, 9,8};
     int ans = aggressiveCows(arr, 3);
-    cout<<"The max of min distance between cows : \n"<<ans<<endl;
+    cout<<"The max of min distance between cows: \n"<<ans<<endl;
     return 0;
 }
