@@ -2,22 +2,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int rotateArray(vector<int> &arr, int k){
-    cout<<"hellow"<<endl;
-    vector<int> temp;
-    for (int i = 0; i < arr.size(); i++)
+void rotateArray(int arr[], int n,  int arr2[], int k){
+    int t;
+    for (int i = 0; i < n; i++)
     {
-        temp[(i+k)%arr.size()] = arr[i];    
+        t = (i+k)%n;
+        arr2[t] = arr[i];
     }
-    cout<<"hellow"<<endl;
-
-    return 0;  
+    for (int i = 0; i < n; i++)
+    {
+        cout<<arr2[i]<<" ";
+    }
+    cout<<endl;
+    
 }
 
 int main(){
-    //not completed
-    vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    rotateArray(arr, 2);
-    // cout<<temp[0];
+    int arr[10] = {1, 2, 3, 4, 5};
+    int arr2[10];
+    rotateArray(arr,5, arr2, 2);
+
     return 0;
 }
