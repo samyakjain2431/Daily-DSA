@@ -15,7 +15,7 @@ int rotateArray(vector<int> &arr, int k){
 }
 
 int main(){
-    
+    //not completed
     vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     rotateArray(arr, 2);
     // cout<<temp[0];
