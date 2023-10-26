@@ -12,7 +12,7 @@ void displayArray(vector<int> &arr){
 }
 
 void moveZero(vector<int> &arr){
-    int lastZero;
+    int lastZero=-1;
     for (int i = 0; i < arr.size(); i++)
     {
         if(arr[i]==0){
@@ -33,7 +33,7 @@ void moveZero(vector<int> &arr){
 
 int main(){
     
-    vector<int> arr = {0, 0, 1,0, 0, 3, 5, 0, 2, 0, 1,1,0};
+    vector<int> arr = {1,0, 0, 3, 5, 0, 2, 0, 1,1,0};
     cout<<"Before Operation : ";
     displayArray(arr);
     moveZero(arr);
