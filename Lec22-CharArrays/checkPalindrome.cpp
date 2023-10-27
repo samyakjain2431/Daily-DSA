@@ -24,8 +24,13 @@ int main(){
     char a[10] ;
     cout<<"enter name : "<<endl;
     cin>>a;
-    int result = checkPalindrome(a);
-    cout<<result;
-    
+    if (checkPalindrome(a))
+    {
+        cout<<"Yes, it is a palindrome"<<endl;
+    }
+    else{
+        cout<<"No, It's not a palindrome"<<endl;
+    }
+        
     return 0;
 }
