@@ -24,7 +24,7 @@ char getMaxOccuringChar(string s){
             maxi = arr[i];
         }
     }
-    return char(ans+ 'a');
+    return char(ans+ 'a'); // this will return lowercase
     
     
 }
@@ -33,6 +33,7 @@ int main(){
     
     string s;
     cout<<"enter your string : ";cin>>s;
+    cout<<"max occuring character is : ";
     cout<<getMaxOccuringChar(s)<<endl;
     return 0;
 }
